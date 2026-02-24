@@ -1,0 +1,4 @@
+Student 1 name: Alif
+Student 1 marks: 20
+Student 2 name: Student
+Student 2 marks: 30
