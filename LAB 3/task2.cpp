@@ -24,8 +24,8 @@ for(int i=0;i<x.size();i++){
         if(x[i]==u){
                // cout<<x[i]<<endl;
                 for(auto k:operators){
-                    if(x[i+1]==u){
-                            cout<<x[i]<<" "<<x[i+1]<<endl;
+                    if(x[i+1]==k){
+
                         cnt=1;
                     }
                 }
@@ -73,8 +73,7 @@ getline(cin>>ws,x);
 start_end(x);
 operator_is_consecutive(x);
 operands_is_consecutive(x);
-cout<<operator_is_consecutive(x)<<endl;
-cout<<operands_is_consecutive(x)<<endl;
+
 if(start_end(x)||operands_is_consecutive(x)||operator_is_consecutive(x)){
     cout<<"Invalid"<<endl;
 }else{

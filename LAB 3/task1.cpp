@@ -12,7 +12,7 @@ for(int i=0;i<x.size();i++){
     }
    else if(x[0]=='+'&&x[1]=='+'||x[0]=='-'&&x[1]=='-'){
         flag=true;
-    }else if(x[x.size()-1]=='+'&&x[x.size()-2]=='+'&&x[x.size()-1]=='-'&&x[x.size()-2]=='-'){
+    }else if(x[x.size()-1]=='+'&&x[x.size()-2]=='+'||x[x.size()-1]=='-'&&x[x.size()-2]=='-'){
     flag= true;
     }else{
     flag =false;
