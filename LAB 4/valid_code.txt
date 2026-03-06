@@ -2,5 +2,3 @@ int x;
 float avg;
 int sum();
 void show();
-int 2x;
-int f(int a);

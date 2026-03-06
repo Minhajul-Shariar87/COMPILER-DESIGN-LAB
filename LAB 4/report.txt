@@ -1,0 +1,5 @@
+Summary
+Total Lines: 6
+Variable Declarations: 2
+Function Declarations: 2
+Invalid: 2
