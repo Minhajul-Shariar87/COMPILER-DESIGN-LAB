@@ -20,7 +20,13 @@ return false;
 
 bool isFunction(string s){
 for(int i=0;i<s.size();i++){
-    if(s){}
+    if(s[i]=='('){
+        if(s[i+1]!=')'){
+            return false;
+        }else{
+        return true;
+        }
+       }
 }
 }
 int main(){
@@ -32,9 +38,9 @@ string s="";
 ifstream readfile("input.txt");
 while(getline(readfile,input)){
      s=input;
-     if(s[s.size()-1]==')'&&s[s.size()-2]=='('){
+     if(s[s.size()-1]==')'&&s[s.size()-2]!='('){
         isFunction(s);
-     }else{
+     }else if(){
      isVariable(s)
      }
 }
